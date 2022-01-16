@@ -1,0 +1,66 @@
+/* Téléphone portable*/
+@media screen and (max-width: 768px) {
+  body {
+    width: 100%;
+    margin: 0;
+  }
+  #header__container {
+    flex-direction: column;
+    margin: 0;
+  }
+  #header__title {
+    text-align: center;
+    margin: 0;
+  }
+  #header__title img {
+    position: relative;
+    left: 15px;
+  }
+  .header__nav-container {
+    margin: 0;
+    padding-top: 15px;
+    text-align: center;
+    width: 100%;
+  }
+  .header__nav-container:hover {
+    border-top: none;
+    border-bottom: 2px solid var(--blue);
+  }
+  /* formulaire */
+  #formulaire__container {
+    margin-left: 10px;
+  }
+  .fa-map-marker-alt {
+    top: 1px;
+    height: 17px;
+  }
+  .formulaire__label {
+    display: none;
+  }
+  .fa-search {
+    visibility: visible;
+    display: inline-block;
+    color: var(--light-blue);
+    background: var(--blue);
+    height: 39px;
+    width: 34px;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    top: -10px;
+    left: -14px;
+  }
+  .fa-search::before {
+    position: relative;
+    top: 11px;
+  }
+  #formulaire__filtre span {
+    display: block;
+    width: 100%;
+    padding: 0 0 16px 16px;
+  }
+  #subinfo_form {
+    padding: 0 16px;
+  }
+  /* Hebergement */
+}
