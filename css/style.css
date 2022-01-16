@@ -11,6 +11,16 @@ body {
   width: 90%;
   margin: 0 auto;
 }
+
+button {
+  border: none;
+  background: none;
+}
+button:active {
+  position: relative;
+  top: 1px;
+}
+
 /* header */
 #header__container {
   display: flex;
@@ -170,26 +180,73 @@ a {
   left: 12px;
   color: var(--blue);
 }
-/* Hébergement */
+/* Hébergement et card */
 #hebergement {
   background: var(--background);
   padding: 22px 16px;
   border-radius: 20px;
+  width: 70%;
 }
 .section__title {
   margin: 0;
   padding-bottom: 16px;
 }
-button {
-  border: none;
-  background: none;
+/* Card */
+.hebergement_box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
 }
-button:active {
-  position: relative;
-  top: 1px;
+.hebergement_card {
+  box-sizing: content-box;
+  height: 200px;
+  width: 320px;
+  margin: 16px;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 5px;
+  background-color: #fff;
+}
+.hebergement_box_pic {
+  height: 70%;
+  width: 100%;
+}
+.hebergement_pic {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px 20px 0 0;
+}
+.hebergement_info {
+  height: 30%;
+  padding-bottom: 8px;
+}
+.card_title {
+  margin: 0;
+  padding-left: 8px;
+}
+.card_price {
+  margin: 0;
+  padding-left: 8px;
+}
+.card_price span {
+  font-weight: bold;
 }
 .card_rate {
+  margin: 0;
+  padding-left: 8px;
 }
+.fa-star {
+}
+.fa-star::before {
+  color: var(--background);
+}
+
+i.fa-star.active::before {
+  color: var(--blue);
+}
+
 /* tablettes */
 @media screen and (max-width: 992px) {
 }
