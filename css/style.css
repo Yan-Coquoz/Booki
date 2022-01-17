@@ -13,6 +13,7 @@ body {
 }
 
 button {
+  font-weight: bold;
   border: none;
   background: none;
 }
@@ -125,7 +126,6 @@ a {
 .formulaire__filtre_box {
   box-sizing: border-box;
   border: 2px solid var(--background);
-  width: 170px;
   height: 35px;
   border-radius: 20px;
   text-align: center;
@@ -137,6 +137,8 @@ a {
 .slider {
   box-sizing: border-box;
   width: 100%;
+  padding-right: 16px;
+  font-weight: bold;
 }
 
 .btnCheck {
@@ -162,9 +164,9 @@ a {
   width: 100%;
   font-size: 12px;
   text-align: center;
+  padding-left: 8px;
   position: relative;
   top: 7px;
-  left: -8;
 }
 .fa-info {
   height: 30px;
@@ -203,10 +205,11 @@ a {
   height: 200px;
   width: 320px;
   margin: 16px;
-  border: 1px solid black;
   border-radius: 20px;
-  padding: 5px;
+  padding: 5px 5px 12px 5px;
   background-color: #fff;
+  -webkit-box-shadow: 2px 7px 12px 4px rgba(0, 0, 0, 0.34);
+  box-shadow: 2px 7px 12px 4px rgba(0, 0, 0, 0.34);
 }
 .hebergement_box_pic {
   height: 70%;
@@ -220,7 +223,7 @@ a {
 }
 .hebergement_info {
   height: 30%;
-  padding-bottom: 8px;
+  padding: 8px 0 8px 0;
 }
 .card_title {
   margin: 0;
@@ -237,7 +240,8 @@ a {
   margin: 0;
   padding-left: 8px;
 }
-.fa-star {
+.fa-star::before {
+  font-size: 12px;
 }
 .fa-star::before {
   color: var(--background);

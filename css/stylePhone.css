@@ -28,7 +28,17 @@
   }
   /* formulaire */
   #formulaire__container {
-    margin-left: 10px;
+    margin: 0;
+  }
+  #formulaire__title-block {
+    padding: 8px;
+  }
+
+  #formulaire__search-block {
+    text-align: center;
+  }
+  #formulaire__search-block input {
+    width: 70%;
   }
   .fa-map-marker-alt {
     top: 1px;
@@ -54,13 +64,38 @@
     position: relative;
     top: 11px;
   }
+  #formulaire__filtre {
+    padding-left: 8px;
+  }
   #formulaire__filtre span {
     display: block;
     width: 100%;
-    padding: 0 0 16px 16px;
+    padding-bottom: 16px;
   }
   #subinfo_form {
-    padding: 0 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 0 8px;
+  }
+  #subinfo_form i {
+    display: block;
+  }
+  .fa-info {
+    width: 37px;
+  }
+  .fa-info::before {
+    top: -6;
+  }
+  #subinfo_form span {
+    display: inline-block;
+    padding-left: 8px;
   }
   /* Hebergement */
+  #hebergement {
+    background: none;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+  }
 }
