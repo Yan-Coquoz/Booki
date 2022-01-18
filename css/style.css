@@ -8,6 +8,12 @@
 }
 body {
   font-family: "Raleway", sans-serif;
+  margin: 0 auto;
+}
+header {
+  width: 90%;
+}
+main {
   width: 90%;
   margin: 0 auto;
 }
@@ -27,7 +33,7 @@ button:active {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 0 2%;
+  margin: 0 auto;
 }
 #header__title img {
   box-sizing: border-box;
@@ -321,6 +327,7 @@ aside .section__title {
   width: 100%;
   display: flex;
   flex-direction: column;
+  margin-bottom: 32px;
 }
 .activite__container {
   width: 100%;
@@ -361,20 +368,18 @@ aside .section__title {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
 }
 .portrait {
-  /* max-width: 400px;
-  min-width: 350px; */
   width: 45%;
-  margin: 0 auto;
 }
 
 .medium {
   height: 45%;
   width: 86%;
-  /* max-width: 470px;
-  min-width: 430px; */
+}
+.activite__card-box:nth-child(1) .medium:nth-child(-n + 2) {
+  margin-right: 32px;
 }
 .medium .activite__card-pic {
   height: 67%;
@@ -390,7 +395,30 @@ aside .section__title {
 .card_box-title h3 {
   margin-top: 16px;
 }
-
+/* Footer */
+footer {
+  background-color: var(--background);
+  width: 100%;
+}
+footer div {
+  margin: 0 auto;
+  width: 90%;
+  padding: 2% 0;
+  display: flex;
+  /* justify-content: space-between; */
+}
+footer nav {
+  width: 35%;
+}
+h4 {
+  margin-bottom: 8px;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
 /* tablettes */
 @media screen and (max-width: 992px) {
 }
