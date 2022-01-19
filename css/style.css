@@ -291,7 +291,7 @@ aside .section__title {
   display: flex;
   flex-direction: column;
 }
-#aside__card {
+.aside__card {
   box-sizing: content-box;
   border-radius: 20px;
   background: #fff;
@@ -300,7 +300,7 @@ aside .section__title {
   -webkit-box-shadow: 2px 7px 12px 4px rgba(0, 0, 0, 0.34);
   box-shadow: 2px 7px 12px 4px rgba(0, 0, 0, 0.34);
 }
-#aside__card a {
+.aside__card a {
   display: flex;
   flex-direction: row;
   width: 100%;
