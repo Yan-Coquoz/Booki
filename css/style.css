@@ -405,7 +405,6 @@ footer div {
   width: 90%;
   padding: 2% 0;
   display: flex;
-  /* justify-content: space-between; */
 }
 footer nav {
   width: 35%;
@@ -418,7 +417,4 @@ ul {
 }
 li {
   list-style-type: none;
-}
-/* tablettes */
-@media screen and (max-width: 992px) {
 }

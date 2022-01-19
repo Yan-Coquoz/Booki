@@ -1,0 +1,33 @@
+/* tablettes */
+@media screen and (max-width: 992px) {
+  #hebergement {
+    flex-direction: column-reverse;
+  }
+  #hebergement__block {
+    width: 92%;
+  }
+  .hebergement_box {
+    flex-direction: row;
+  }
+  #aside__block {
+    width: 96%;
+    margin-bottom: 32px;
+  }
+  /* Activité */
+  .activite__card-box {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .activite__card-medium {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .medium {
+    width: 100%;
+  }
+  .activite__card-box:nth-child(1) .medium:nth-child(-n + 2) {
+    margin: 0;
+  }
+}
