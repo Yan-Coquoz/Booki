@@ -122,7 +122,8 @@
     justify-content: center;
   }
   .hebergement_card {
-    width: 330px;
+    width: 100%;
+    margin: 16px 16px;
   }
   #aside__block {
     width: 100%;
