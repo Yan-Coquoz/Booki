@@ -140,11 +140,18 @@ a {
   margin-bottom: 20px;
   margin-right: 16px;
 }
+.formulaire__filtre_box:hover {
+  border: none;
+}
 .slider {
   box-sizing: border-box;
   width: 100%;
   padding-right: 16px;
   font-weight: bold;
+}
+.slider:hover {
+  background: var(--light-blue);
+  border-radius: 20px;
 }
 
 .btnCheck {
@@ -174,7 +181,14 @@ a {
   position: relative;
   top: 7px;
 }
+#subinfo_form {
+  text-align: left;
+}
+#subinfo_form i {
+  width: 30px;
+}
 .fa-info {
+  display: inline-block;
   height: 30px;
   width: 30px;
   border-radius: 18px;
