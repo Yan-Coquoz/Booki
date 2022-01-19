@@ -364,14 +364,15 @@ aside .section__title {
   height: 100%;
   border-radius: 20px 20px 0px 0;
 }
-.activité__card-medium {
+.activite__card-medium {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-end;
+  width: 100%;
 }
 .portrait {
-  width: 45%;
+  width: 70%;
 }
 
 .medium {
