@@ -35,9 +35,14 @@ button:active {
   justify-content: space-between;
   margin: 0 auto;
 }
+#header__title {
+  font-size: 22px;
+}
 #header__title img {
   box-sizing: border-box;
   width: 45%;
+  position: relative;
+  left: -20px;
 }
 #header__nav-block {
   display: flex;
@@ -139,9 +144,12 @@ a {
   align-items: center;
   margin-bottom: 20px;
   margin-right: 16px;
+  transition-duration: 1.2s;
+  transition-property: transform;
 }
 .formulaire__filtre_box:hover {
-  border: none;
+  z-index: 3;
+  transform: scale(1.2);
 }
 .slider {
   box-sizing: border-box;
@@ -150,7 +158,6 @@ a {
   font-weight: bold;
 }
 .slider:hover {
-  background: var(--light-blue);
   border-radius: 20px;
 }
 

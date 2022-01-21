@@ -188,4 +188,7 @@
   footer div {
     flex-direction: column;
   }
+  footer nav {
+    width: 100%;
+  }
 }
