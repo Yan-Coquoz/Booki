@@ -2,6 +2,9 @@
 Intégration d'une maquette (style Airbnb)
 
 ## Spécifications Techniques :
+
+## formatage du navigateur :
+- [Normalize](https://github.com/necolas/normalize.css/)
  ### colors : 
   - blue: #0065fc;
   - light-blue: #deebff;
