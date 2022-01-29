@@ -7,16 +7,13 @@
     <meta name="description" content="projet de maquettage d'une application web d'hébergement">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/regular.min.css"
-        integrity="sha512-d2x1oQUT6HACW9UlXxWI6XrIBDrEE5z2tit/+kWEdXdVYuift7sm+Q6ucfGWQr1F0+GD9/6eYoYDegw2nm05Vw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <script src="https://kit.fontawesome.com/8b07301a9e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/styleTablette.css">
     <link rel="stylesheet" href="./css/stylePhone.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <title>Booki</title>
 </head>
@@ -51,40 +48,33 @@
                     <label for="search" class="formulaire__label">Rechercher</label>
                     <label class="fas fa-search "></label>
                 </div>
+
                 <div id="formulaire__filtre">
                     <span>Filtres</span>
                     <div class="formulaire__filtre_box">
-
-                        <input type="checkbox" name="eco" id="eco">
-                        <div class="slider"> <i class="far fa-map btnCheck"></i>
-
-                            <label for="eco">Économique</label>
-                        </div>
-
+                        <button><i class="far fa-map btnCheck"></i>Économique</button>
                     </div>
+
+
                     <div class="formulaire__filtre_box">
-                        <input type="checkbox" name="fam" id="fam">
-                        <div class="slider"> <i class="fas fa-child btnCheck"></i>
-                            <label for="fam">Familial</label>
-                        </div>
 
+                        <button><i class="fas fa-child btnCheck"></i>Familial</button>
                     </div>
+
+
                     <div class="formulaire__filtre_box">
-                        <input type="checkbox" name="rom" id="rom">
-                        <div class="slider">
-                            <i class="fas fa-heart btnCheck"></i>
-                            <label for="rom">Romantique</label>
-                        </div>
-
+                        <button><i class="fas fa-heart btnCheck"></i>Romantique</button>
                     </div>
+
+
                     <div class="formulaire__filtre_box">
-                        <input type="checkbox" name="ani" id="ani">
-                        <div class="slider"><i class="fas fa-dog btnCheck"></i>
-                            <label for="ani">Animaux autorisés</label>
-                        </div>
-
+                        <button>
+                            <i class="fas fa-dog btnCheck"></i>
+                            Animaux autorisés</button>
                     </div>
+
                 </div>
+
 
             </form>
             <p id="subinfo_form"><i class="fas fa-info"></i> <span>Plus de 500 logements sont disponibles dans cette
@@ -216,7 +206,7 @@
                     </div>
                 </div>
                 <div id="hebergement__btn">
-                    <button type="button">Affichez plus</button>
+                    <a href="#">Affichez plus</a>
                 </div>
 
             </div>
@@ -228,7 +218,7 @@
                 </div>
 
                 <div id="aside__box-card">
-                    <div class="aside__card">
+                    <figure class="aside__card">
                         <a href="#">
                             <div class="aside__box_pic"><img
                                     src="./assets/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
@@ -249,8 +239,8 @@
                                 </p>
                             </div>
                         </a>
-                    </div>
-                    <div class="aside__card">
+                    </figure>
+                    <figure class="aside__card">
                         <a href="#">
                             <div class="aside__box_pic"><img
                                     src="./assets/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
@@ -270,8 +260,8 @@
                                 </p>
                             </div>
                         </a>
-                    </div>
-                    <div class="aside__card">
+                    </figure>
+                    <figure class="aside__card">
                         <a href="#">
                             <div class="aside__box_pic"><img
                                     src="./assets/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
@@ -292,7 +282,7 @@
                                 </p>
                             </div>
                         </a>
-                    </div>
+                    </figure>
                 </div>
             </aside>
 
@@ -400,32 +390,29 @@
     </main>
 
     <footer>
-        <div>
-            <nav>
+        <div class="footer__box">
+            <div class="footer__bloc--nav">
                 <h4>A propos</h4>
                 <ul>
                     <li><a href="#">Fonctionnement du site</a></li>
                     <li><a href="#">Conditions générales de vente</a></li>
                     <li><a href="#">Données et confidentialité</a></li>
                 </ul>
-            </nav>
-            <nav>
+            </div>
+            <div class="footer__bloc--nav">
                 <h4>Nos hébergements</h4>
                 <ul>
                     <li><a href="#">Charte qualité</a></li>
                     <li><a href="#">Soumettre votre hôtel</a></li>
-
                 </ul>
-            </nav>
-            <nav>
+            </div>
+            <div class="footer__bloc--nav">
                 <h4>Assistance</h4>
                 <ul>
-
                     <li><a href="#">Centre d'aide</a></li>
                     <li><a href="#">Nous contacter</a></li>
-
                 </ul>
-            </nav>
+            </div>
         </div>
     </footer>
 </body>

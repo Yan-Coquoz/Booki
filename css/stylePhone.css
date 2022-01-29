@@ -95,9 +95,7 @@
   .fa-info {
     width: 37px;
   }
-  .fa-info::before {
-    /* top: 5px; */
-  }
+
   #subinfo_form span {
     display: inline-block;
     position: relative;
@@ -166,15 +164,10 @@
     margin: 0 auto;
   }
 
-  .activite__card-medium .medium:nth-child(1) {
-    /* margin-bottom: 32px; */
-  }
   .activite__card-box:nth-child(1) .medium:nth-child(-n + 2) {
     margin-bottom: 32px;
   }
-  .medium {
-    /* margin: 16px; */
-  }
+
   .portrait .activite__card-pic {
     height: 67%;
   }
@@ -183,10 +176,10 @@
   }
 
   /* Footer */
-  footer div {
+  .footer__box {
     flex-direction: column;
   }
-  footer nav {
+  .footer__bloc--nav {
     width: 100%;
   }
 }
