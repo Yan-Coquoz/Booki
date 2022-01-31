@@ -35,6 +35,9 @@ a {
   font-size: var(--gutter);
   text-decoration: none;
 }
+input:focus {
+  outline: none;
+}
 
 /* header */
 #header__container {
