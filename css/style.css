@@ -256,7 +256,7 @@ a {
   box-sizing: content-box;
   height: 200px;
   width: 320px;
-  margin: 16px 0;
+  margin: 16px 8px;
   border-radius: 20px;
   padding: 5px 5px 12px 5px;
   background-color: #fff;
@@ -319,6 +319,11 @@ aside .section__title {
   display: inline-block;
   padding-bottom: var(--gutter);
   padding-left: 0;
+}
+.fa-chart-line {
+  position: relative;
+  top: 33px;
+  font-size: 22px;
 }
 #aside__box-card {
   display: flex;
