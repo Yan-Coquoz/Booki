@@ -226,6 +226,7 @@ input:focus {
   border-radius: 20px;
   width: 60%;
   display: flex;
+  margin-right: calc(var(--gutter) * 2);
   flex-direction: column;
   text-align: left;
 }
@@ -327,6 +328,7 @@ aside .section__title {
   position: relative;
   top: 33px;
   font-size: 22px;
+  padding-left: 8px;
 }
 #aside__box-card {
   display: flex;
