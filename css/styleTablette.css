@@ -4,7 +4,8 @@
     flex-direction: column-reverse;
   }
   #hebergement__block {
-    width: 92%;
+    max-width: none;
+    margin-right: 0;
   }
   .hebergement_box {
     flex-direction: row;

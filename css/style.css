@@ -224,7 +224,7 @@ input:focus {
   background: var(--background);
   padding: 22px 32px;
   border-radius: 20px;
-  width: 60%;
+  max-width: 60%;
   display: flex;
   margin-right: calc(var(--gutter) * 2);
   flex-direction: column;
@@ -249,18 +249,21 @@ input:focus {
   top: 2px;
 }
 
-/* Card */
 .hebergement_box {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
+  gap: 16px 0;
+  margin-top: 16px;
 }
+/* Card */
+
 .hebergement_card {
-  box-sizing: content-box;
+  margin: 0;
+  /* box-sizing: border-box; */
   height: 200px;
-  width: 320px;
-  margin: 16px 8px;
+  width: 30%;
   border-radius: 20px;
   padding: 5px 5px 12px 5px;
   background-color: #fff;
@@ -268,7 +271,7 @@ input:focus {
   box-shadow: 2px 7px 12px 4px rgba(0, 0, 0, 0.34);
 }
 .hebergement_box_pic {
-  height: 70%;
+  height: 60%;
   width: 100%;
 }
 .hebergement_pic {
@@ -351,7 +354,7 @@ aside .section__title {
 }
 .aside__box_pic {
   height: 100%;
-  width: 30%;
+  width: 40%;
 }
 .aside_pic {
   object-fit: cover;
@@ -360,6 +363,7 @@ aside .section__title {
   border-radius: 20px 0px 0 20px;
 }
 .aside__info {
+  width: 60%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
