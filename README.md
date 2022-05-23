@@ -1,4 +1,5 @@
 # ocr-integration-booki
+![GitHub repo size](<https://img.shields.io/github/repo-size/Yan-Coquoz/Booki>) 
 Intégration d'une maquette (style Airbnb)
 
 ## Spécifications Techniques :
