@@ -1,0 +1,61 @@
+#activite {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+.activite__container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.activite__card-box {
+  display: flex;
+  margin-bottom: 32px;
+  height: 500px;
+  width: 48%;
+  justify-content: space-between;
+}
+.activite__card {
+  width: 50%;
+  border-radius: 20px;
+  -webkit-box-shadow: 2px 7px 12px 4px rgba(0, 0, 0, 0.34);
+  box-shadow: 2px 7px 12px 4px rgba(0, 0, 0, 0.34);
+}
+.activite__card-pic {
+  height: 85%;
+}
+.card__img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px 20px 0px 0;
+}
+.activite__card-medium {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+}
+.portrait {
+  width: 70%;
+}
+.medium {
+  height: 45%;
+  width: 86%;
+}
+.medium .activite__card-pic {
+  height: 67%;
+  width: 100%;
+}
+.card_box-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card_box-title h3 {
+  margin-top: var(--gutter);
+}

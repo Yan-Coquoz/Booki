@@ -1,0 +1,30 @@
+#header__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+#header__title {
+  font-size: 22px;
+}
+#header__title img {
+  box-sizing: border-box;
+  width: 45%;
+  position: relative;
+  left: -20px;
+}
+#header__nav-block {
+  display: flex;
+}
+.header__nav-container {
+  width: 115px;
+  text-align: center;
+  padding: 12% 15px 0 15px;
+}
+
+.header__nav-container:hover {
+  border-top: 2px solid var(--blue);
+}
+.header__nav-container:hover > a {
+  color: var(--blue);
+}

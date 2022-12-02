@@ -1,0 +1,49 @@
+.hebergement_card {
+  margin: 0;
+  height: 200px;
+  width: 30%;
+  border-radius: 20px;
+  padding: 5px 5px 12px 5px;
+  background-color: #fff;
+  -webkit-box-shadow: 2px 7px 12px 4px rgba(0, 0, 0, 0.34);
+  box-shadow: 2px 7px 12px 4px rgba(0, 0, 0, 0.34);
+}
+.hebergement_box_pic {
+  height: 60%;
+  width: 100%;
+}
+.hebergement_pic {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px 20px 0 0;
+}
+.hebergement_info {
+  height: 30%;
+  padding: 8px 0 8px 0;
+}
+.card_title {
+  margin: 0;
+  padding-left: 8px;
+}
+.card_price {
+  margin: 0;
+  padding-left: 8px;
+}
+.card_price span {
+  font-weight: bold;
+}
+.card_rate {
+  margin: 0;
+  padding-left: 8px;
+}
+.fa-star::before {
+  font-size: 12px;
+}
+.fa-star::before {
+  color: var(--background);
+}
+
+i.fa-star.active::before {
+  color: var(--blue);
+}

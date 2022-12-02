@@ -1,0 +1,22 @@
+footer {
+  background-color: var(--background);
+  width: 100%;
+}
+.footer__box {
+  margin: 0 auto;
+  width: 90%;
+  padding: 2% 0;
+  display: flex;
+}
+.footer__bloc--nav {
+  width: 35%;
+}
+h4 {
+  margin-bottom: 8px;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
