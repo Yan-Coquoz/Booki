@@ -1,5 +1,4 @@
 # ocr-integration-booki
-
 Intégration d'une maquette (style Airbnb)
 
 ## Spécifications Techniques
